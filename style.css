@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: red;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.mining-section, .balance-section, .invited-section, .faucet-section {
+    margin: 20px 0;
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+.faucet-section input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.faucet-section button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.earnings {
+    margin-top: 10px;
+}
