@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doge Miner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Doge Miner</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Top Up</a></li>
+                <li><a href="#">Withdraw</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="mining-section">
+            <h2>2.00 GH/s</h2>
+            <p>Hash Power</p>
+            <div class="earnings">
+                <p>Today Possible Earnings: <span id="earnings">0.0012 DOGE</span></p>
+                <p>Daily Earnings: <span id="daily-earnings">0.0012 DOGE</span></p>
+            </div>
+        </div>
+
+        <div class="balance-section">
+            <h3>Current Balance: <span id="balance">0.0000 DOGE</span></h3>
+            <h4>USD: <span id="usd-balance">0.00000</span></h4>
+        </div>
+
+        <div class="invited-section">
+            <h3>Total Invited Users: <span id="invited">0</span></h3>
+        </div>
+
+        <div class="faucet-section">
+            <input type="email" id="faucetpay-email" placeholder="Your FaucetPay Email">
+            <button onclick="startMining()">Start Mining</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+  </html>
